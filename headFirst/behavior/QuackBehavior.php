@@ -8,5 +8,5 @@ namespace headFirst\behavior;
  */
 interface QuackBehavior
 {
-    public function fly();
+    public function quack();
 }

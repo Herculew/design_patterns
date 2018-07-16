@@ -43,7 +43,7 @@ abstract class Duck
     }
 
     public function  performQuack(){
-
+        $this->quackBehavior->quack();
     }
     public function  performFly(){
         $this->flyBehavior->fly();
